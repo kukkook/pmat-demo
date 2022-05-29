@@ -1,0 +1,421 @@
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+
+/* start navigation */ 
+
+
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+    
+    /*logo*/
+}
+
+.header_area .main-menu .navbar .navbar-brand > img{
+    width:80px;
+    height: inherit;
+}
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+    margin-right: 5%;
+    /*ระยะห่าง*/
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    color: var(--title-color);
+    
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+
+
+/* end navigation */ 
+
+/* Banner Area */ 
+
+.site-main .site-banner {
+    background: url( ) no-repeat 0% 35%;
+    
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 15%;
+    font-weight: 400;
+    color: rgb(129, 10, 10);
+    font-size:3rem;
+    /*I am*/
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: rgb(0, 0, 0);
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 36px ;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.site-main .site-banner .site-title h4{
+    
+    color: rgb(91, 87, 87);
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.site-main .site-banner .banner-image > img{
+    
+    width: 100%;
+    height: inherit;
+}
+
+.site-main .site-banner .banner-image2 >img{
+    margin-top: 5%;
+    width: 970px;
+    height: inherit;
+}
+
+
+
+/* End Banner Area */ 
+
+
+/* Start About Area */ 
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+
+.site-main .about-area .site-about h4{
+    
+    color: rgb(91, 87, 87);
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.site-main .about-area .site-about h3{
+    margin-top: 1%;
+    color: rgb(53, 52, 52);
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.site-main .about-area .site-about .map{
+    margin-top: 2%;
+    
+}
+.site-main .about-area .about-image >img{
+    
+    width: 250px;
+    height: inherit;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--arial);
+    letter-spacing: 20px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+    justify-content: center;
+}
+/* End About Area */ 
+
+
+/* Start Experience Area */ 
+.site-main .experience-area{
+    padding: 7rem 2rem;
+    margin-top: 5%;
+}
+
+
+.site-main .experience-area .experience-title{
+    padding: 0 3rem;
+}
+
+.site-main .experience-area .experience-title h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.site-main > .experience-area .experience{
+    
+    padding: 2rem 0;
+    width: auto;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+    
+    background-color: rgb(129, 10, 10);
+    background-clip: padding-box;
+    font: normal 500 16px/20px var(--arial);
+    
+    height: auto;
+    border:3px solid rgb(129, 10, 10);
+    
+    border-radius: 25px;
+
+    color:whitesmoke;
+    cursor: pointer;
+    position: relative;
+}
+
+.site-main > .experience-area .experience:hover{
+    box-shadow: var(--box-shadow);
+
+    background: whitesmoke;
+    background-clip: padding-box;
+    transition: background .6s ease;
+    border: 3px solid rgb(129, 10, 10);
+    color:black;
+}
+
+.site-main .experience-area .experience .btn{
+    color:white;
+    background-color: rgb(129, 10, 10);
+    border-radius: 3%;
+}
+
+
+
+.site-main .experience-area{
+    padding: 4rem 0;
+}
+
+
+/*Project Area */ 
+
+.site-main .project-area{
+    padding: 7rem 2rem;
+    margin-top: 2%;
+}
+
+.site-main .project-area .project-title{
+    padding: 0 3rem;
+}
+
+.site-main .project-area .project-title h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.site-main > .project-area .project{
+    background: rgba(245, 241, 242, 0.973);
+    padding: 2rem 0;
+    width: auto;
+    height: auto;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+    
+}
+
+.site-main > .project-area .project:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.site-main .project-area .project .btn{
+    color:white;
+    background-color: rgb(129, 10, 10);
+    border-radius: 3%;
+}
+
+
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+
+.site-main .project-area .project .project-img > img{
+    width: 69px;
+    height: 69px;
+}
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 50px #b1afaf);
+    /*icon*/
+}
+
+
+/* End Project Area */ 
+
+/* Subscribe me */ 
+
+
+.site-main .subscribe-us-area{
+    padding: 7rem 2rem;
+    margin-top:3%;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h1{
+    font-size: 35px;
+    font-weight: 500;
+    padding: 0 3rem;
+    margin-left: auto;
+}
+
+.site-main .subscribe-us-area .contact .contact-img >img{
+    
+    width: 90px;
+    height: 90px;
+}
+
+.site-main .subscribe-us-area .col-lg-3{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+}
+.site-main .subscribe-us-area .box3{
+    background-color: rgb(129, 10, 10);
+    background-clip: padding-box;
+    font: normal 500 16px/20px var(--arial);
+    width: 280px;
+    height:auto;
+    border:3px solid rgb(129, 10, 10);
+    padding: 50px ;
+    margin: 20px;
+    border-radius: 25px;
+
+    color:whitesmoke;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+
+.site-main .subscribe-us-area .box4{
+    background-color: rgb(129, 10, 10);
+    background-clip: padding-box;
+    font: normal 500 16px/20px var(--arial);
+    width: 280px;
+    height: auto;
+    border:3px solid rgb(129, 10, 10);
+    padding: 50px ;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: center;
+    color:whitesmoke;
+    position: relative;
+    
+}
+
+.site-main .subscribe-us-area .contact .box4 p{
+    text-align:center;
+    color: rgb(0, 0, 0);
+}
+
+.site-main .subscribe-us-area .contact a{
+    text-align: center;
+    color: rgb(253, 220, 89);
+    width: auto;
+}
+
+/*form */
+.site-main .subscribe-us-area .contact-img{
+    width: 69px;
+    height: inherit;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid rgb(129, 10, 10); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(129, 10, 10);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+ 
+  
+  /* Add a background color and some padding around the form */
+ 
+
+/* End subscribe me */ 
+
+/* Footer Area */ 
+
+footer.footer-area{
+    background: url(../img/footer-bg.png) no-repeat;
+    height: 480px;
+}
+
+footer.footer-area img{
+    width: 200px;
+    height: inherit;
+}
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--arial);
+}
+
+footer.footer-area .social a > i{
+    font-size:28px;
+    padding: 2rem;
+    color: rgb(203, 192, 192);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+footer .footer-area  h3{
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(49, 25, 135);
+}
+
+footer .footer-area  h4{
+    font-size: 12px;
+    font-weight: 500
+}
+
+/* End Footer */ 
